@@ -1,0 +1,13 @@
+[package]
+name = "vostok-gemini"
+version = "0.0.0"
+authors = ["Zoey Riordan <zoey@dos.cafe>"]
+edition = "2018"
+
+[dependencies]
+async-native-tls = "0.3.3"
+futures = "0.3"
+native-tls = "0.2"
+smol = "0.1.5"
+url = "2.0"
+vostok-core = {path = "../vostok-core"}

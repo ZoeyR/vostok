@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "vostok-core",
+    "vostok-codegen",
+    "vostok-codegen-impl",
+    "vostok-gemini",
+]

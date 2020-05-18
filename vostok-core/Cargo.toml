@@ -1,0 +1,9 @@
+[package]
+name = "vostok-core"
+version = "0.0.0"
+authors = ["Zoey Riordan <zoey@dos.cafe>"]
+edition = "2018"
+
+[dependencies]
+state = { version = "0.4", features = ["tls"] }
+vostok-codegen = { path = "../vostok-codegen" }

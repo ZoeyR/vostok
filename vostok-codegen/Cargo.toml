@@ -1,0 +1,13 @@
+[package]
+name = "vostok-codegen"
+version = "0.0.0"
+authors = ["Zoey Riordan <zoey@dos.cafe>"]
+description = """
+procedural macros for vostok server
+"""
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[dependencies]
+proc-macro-hack = "0.5"
+vostok-codegen-impl = {path = "../vostok-codegen-impl"}
